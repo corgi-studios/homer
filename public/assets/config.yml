@@ -2,7 +2,7 @@
 # Homepage configuration
 # See https://fontawesome.com/search for icons options
 
-title: "CORGI STUDIOS dashboard"
+title: "Dashboard"
 subtitle: "Corgi Studios"
 logo: "favicon.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
@@ -47,20 +47,24 @@ colors:
 message:
   #url: https://b4bz.io
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Demo !"
-  icon: "fa fa-grin"
-  content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
+  title: "Welcome!"
+  # icon: "fa fa-grin"
+  content: "Welcome to Corgi Studios. Access company resources below."
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Contribute"
-    icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
+  - name: "Outlook"
+    # icon: "fab fa-github"
+    url: "https://outlook.office.com/mail/"
     target: "_blank" # optional html a tag target attribute
-  - name: "Wiki"
-    icon: "fas fa-book"
-    url: "https://www.wikipedia.org/"
+  - name: "Member Access"
+    # icon: "fas fa-book"
+    url: "https://members.corgistudios.tech/"
+  - name: "CRM"
+    url: "https://crm.corgistudios.tech/"
+  - name: "Live Panel"
+    url: "https://live.corgistudios.tech/admin/"
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
   #- name: "another page!"
