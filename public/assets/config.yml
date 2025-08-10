@@ -65,6 +65,8 @@ links:
     url: "https://crm.corgistudios.tech/"
   - name: "Live Panel"
     url: "https://live.corgistudios.tech/admin/"
+  - name: "Sign Out"
+    url: "https://my.corgistudios.tech/cdn-cgi/access/logout"
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
   #- name: "another page!"
@@ -75,7 +77,7 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Applications"
+  - name: "Documentation"
     icon: "fas fa-cloud"
     items:
       - name: "Get started"
