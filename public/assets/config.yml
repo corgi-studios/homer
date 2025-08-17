@@ -57,7 +57,7 @@ links:
   - name: "Website"
     # icon: "fab fa-github"
     # icon: "fas fa-book"
-    url: "https://www.corgistudios.tech/mail"
+    url: "https://www.corgistudios.tech"
     target: "_blank" # optional html a tag target attribute
   - name: "Sign Out"
     url: "https://my.corgistudios.tech/cdn-cgi/access/logout"
