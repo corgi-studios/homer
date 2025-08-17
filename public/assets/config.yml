@@ -76,7 +76,33 @@ links:
 # Services
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+
+
 services:
+  -name: "Services"
+  items:
+    - name: "Member Access"
+      url: "https://members.corgistudios.tech"
+    - name: "TV"
+      url: "https://live.corgistudios.tech"
+    - name: "News"
+      url: "https://news.corgistudios.tech"
+    - name: "Creator Spreadsheet"
+      url: "https://creators.corgistudios.tech"
+    - name: "Profile"
+      url: "https://profile.corgistudios.tech/"
+
+  - name: "ADMIN ACCESS"
+    items:
+      - name: "Member"
+        url: "https://members.corgistudios.tech/admin"
+      - name: "TV"
+        url: "https://live.corgistudios.tech/admin"
+      - name: "News"
+        url: "https://corgi-studios-news-admin.sanity.studio/structure"
+      - name: "CRM Database"
+        url: "https://crm.corgistudios.tech/"
+      
   - name: "Documentation"
     icon: "fas fa-cloud"
     items:
