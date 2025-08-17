@@ -91,7 +91,6 @@ services:
       url: "https://creators.corgistudios.tech"
     - name: "Profile"
       url: "https://profile.corgistudios.tech/"
-
   - name: "ADMIN ACCESS"
     items:
       - name: "Member"
@@ -101,8 +100,7 @@ services:
       - name: "News"
         url: "https://corgi-studios-news-admin.sanity.studio/structure"
       - name: "CRM Database"
-        url: "https://crm.corgistudios.tech/"
-      
+        url: "https://crm.corgistudios.tech/" 
   - name: "Documentation"
     icon: "fas fa-cloud"
     items:
