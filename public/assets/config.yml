@@ -76,14 +76,19 @@ services:
   - name: "Service"
     items:
       - name: "Member Access"
+        subtitle: "Member-exclusive content"
         url: "https://members.corgistudios.tech"
       - name: "TV"
+        subtitle: "Stream sporting and on-demand events"
         url: "https://live.corgistudios.tech"
       - name: "News"
+        subtitle: "Stay updated on company news"
         url: "https://news.corgistudios.tech"
       - name: "Creator Spreadsheet"
+        subtitle: "Creator information reference spreadsheet"
         url: "https://creators.corgistudios.tech"
       - name: "Profile"
+        subtitle: "Bio pages lookup"
         url: "https://profile.corgistudios.tech"
 
   - name: "Admin Panel"
@@ -96,6 +101,8 @@ services:
         url: "https://corgi-studios-news-admin.sanity.studio/structure"
       - name: "CRM Database"
         url: "https://crm.corgistudios.tech"
+      - name: "Profile"
+        url: "https://profile.corgistudios.tech/admin"
 
   - name: "Documentation"
     icon: "fas fa-cloud"
