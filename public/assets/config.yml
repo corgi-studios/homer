@@ -79,7 +79,7 @@ links:
 
 
 services:
-  -name: "Services"
+  -name: "Service"
   items:
     - name: "Member Access"
       url: "https://members.corgistudios.tech"
@@ -91,7 +91,9 @@ services:
       url: "https://creators.corgistudios.tech"
     - name: "Profile"
       url: "https://profile.corgistudios.tech/"
-  -name: "ADMIN ACCESS"
+
+services:
+  -name: "Admin Panel"
   items:
     - name: "Member"
       url: "https://members.corgistudios.tech/admin"
@@ -100,7 +102,9 @@ services:
     - name: "News"
       url: "https://corgi-studios-news-admin.sanity.studio/structure"
     - name: "CRM Database"
-      url: "https://crm.corgistudios.tech/" 
+      url: "https://crm.corgistudios.tech/"
+
+services:
   -name: "Documentation"
   icon: "fas fa-cloud"
   items:
