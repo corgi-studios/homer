@@ -106,12 +106,12 @@ services:
 
   - name: "Apps"
     items:
-      - name: "Outlook"
+      - name: "Microsoft Outlook"
         url: "https://outlook.office.com/mail"
-      - name: "Microsoft 365"
+      - name: "Microsoft My Apps"
         url: "https://login.corgistudios.tech"
-      - name: "Password reset"
-        url: "https://pwreset.corgistudios.tech"
+      - name: "Microsoft My Account"
+        url: "https://myaccount.microsoft.com?tenantId=corgistudios.tech"
       - name: "Cloudflare"
         url: "https://dash.cloudflare.com"
       - name: "Cloudflare One"
@@ -126,6 +126,8 @@ services:
         url: "https://www.dropbox.com/sso/41548618222"
       - name: "OpenVPN"
         url: "https://64.181.209.30:943/admin"
+      - name: "Password reset"
+        url: "https://pwreset.corgistudios.tech"
 
 #  - name: "Documentation"
 #    icon: "fas fa-cloud"
