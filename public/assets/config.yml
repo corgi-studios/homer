@@ -121,7 +121,7 @@ services:
       - name: "Duo Security"
         url: "https://admin-32460b02.duosecurity.com"
       - name: "Oracle Cloud Infrastructure"
-        url: "https://cloud.oracle.com"
+        url: "https://cloud.oracle.com/?tenant=corgistudios"
       - name: "DropBox"
         url: "https://www.dropbox.com/sso/41548618222"
       - name: "OpenVPN"
