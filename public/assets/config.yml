@@ -124,8 +124,6 @@ services:
         url: "https://cloud.oracle.com/?tenant=corgistudios"
       - name: "DropBox"
         url: "https://www.dropbox.com/sso/41548618222"
-      - name: "OpenVPN"
-        url: "https://64.181.209.30:943/admin"
       - name: "Password reset"
         url: "https://pwreset.corgistudios.tech"
 
