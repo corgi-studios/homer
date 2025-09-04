@@ -51,13 +51,6 @@ colors:
   # icon: "fa fa-grin"
   #content: "Access company resources below."
 
-message:
-  #url: https://training.corgistudios.tech
-  #style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Suicide Prevention Awareness Month"
-  #icon: "fa fa-grin"
-  content: "September is Suicide Prevention Awareness Month—a time to raise awareness, promote hope, and normalize help-seeking. Suicide affects millions of people every year, yet too many struggle in silence. Whether you’re facing challenges, supporting a friend or loved one, or are looking to help, your voice matters. This month is dedicated to recognizing the warning signs for suicide, encouraging open conversations about mental health, and connecting people to proven treatment and resources. When we stand together in strength, dignity, hope, and purpose, we can make a difference—we can help save lives. Please complete the mandatory suicide prevention training available now at https://training.corgistudios.tech. Thank you!"
-
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
@@ -101,14 +94,19 @@ services:
   - name: "Authorized Access"
     items:
       - name: "Member"
+        subtitle: "Privileged access to Member Access system"
         url: "https://members.corgistudios.tech/admin"
       - name: "TV"
+        subtitle: "Privileged access to TV system"
         url: "https://live.corgistudios.tech/admin"
       - name: "News"
+        subtitle: "Privileged access to news console"
         url: "https://corgi-studios-news-admin.sanity.studio/structure"
       - name: "CRM Database"
+        subtitle: "Privileged access to CRM system"
         url: "https://crm.corgistudios.tech"
       - name: "Profile"
+        subtitle: "Privileged access to Profile Lookup system"
         url: "https://profile.corgistudios.tech/admin"
 
   - name: "Apps"
