@@ -8,7 +8,7 @@ logo: "favicon.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
-footer: '<p>© Corgi Studios. All Rights Reserved.</p>' # set false if you want to hide it.
+footer: '<p>© 2025 Corgi Studios. All rights reserved.</p>' # set false if you want to hide it.
 
 # Optional theme customization
 theme: default
@@ -95,7 +95,7 @@ services:
     items:
       - name: "Member"
         subtitle: "Privileged access to Member Access system"
-        url: "https://members.corgistudios.tech/admin"
+        url: "https://members.corgistudios.tech/infrastructure/access"
       - name: "TV"
         subtitle: "Privileged access to TV system"
         url: "https://live.corgistudios.tech/admin"
